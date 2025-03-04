@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Abhishek\\Projects\\Demo\\TimeTableGenerator\\TimeTableGenerator\\TimeTableGenerator.csproj",
+      "projectUniqueName": "D:\\Abhishek\\Projects\\Demo\\Dynamic-Table\\TimeTableGenerator\\TimeTableGenerator.csproj",
       "projectName": "TimeTableGenerator",
-      "projectPath": "D:\\Abhishek\\Projects\\Demo\\TimeTableGenerator\\TimeTableGenerator\\TimeTableGenerator.csproj",
+      "projectPath": "D:\\Abhishek\\Projects\\Demo\\Dynamic-Table\\TimeTableGenerator\\TimeTableGenerator.csproj",
       "packagesPath": "C:\\Users\\aparmar\\.nuget\\packages\\",
-      "outputPath": "D:\\Abhishek\\Projects\\Demo\\TimeTableGenerator\\TimeTableGenerator\\obj\\",
+      "outputPath": "D:\\Abhishek\\Projects\\Demo\\Dynamic-Table\\TimeTableGenerator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

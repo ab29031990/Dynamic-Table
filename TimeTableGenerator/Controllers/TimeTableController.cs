@@ -41,13 +41,35 @@ namespace TimeTableGenerator.Controllers
 			var timetable = new List<List<string>>();
 			var subjectList = new List<string>();
 
+			//Total subjects
 			foreach (var subject in subjects)
-				subjectList.AddRange(Enumerable.Repeat(subject.SubjectName, subject.Hours));
-
-			var rnd = new Random();
-			for (int i = 0; i < expectedHours / subjects.Count; i++)
 			{
-				timetable.Add(subjectList.OrderBy(_ => rnd.Next()).Take(subjects.Count).ToList());
+				subjectList.AddRange(Enumerable.Repeat(subject.SubjectName, subject.Hours));
+			}
+
+			//Shuffle subjects
+			var rnd = new Random();
+			subjectList = subjectList.OrderBy(x => rnd.Next()).ToList();
+
+			//Generating dynamic table
+			for (int i = 1; i < expectedHours / subjects.Count; i++)
+			{
+				//Check if there are enough subjects left to fill one day.
+				if (subjectList.Count >= subjects.Count)
+				{
+					//Take a chunk of subjects.Count items for this day.
+					var daySchedule = subjectList.Take(expectedHours / subjects.Count).ToList();
+					timetable.Add(daySchedule);
+					//Remove the used items.
+					subjectList.RemoveRange(0, expectedHours / subjects.Count);
+				}
+				else if (subjectList.Count > 0)
+				{
+					//If there are any remaining items (this should be rare if the math works out),
+					//add them as the final day.
+					timetable.Add(new List<string>(subjectList));
+					subjectList.Clear();
+				}
 			}
 
 			return View("GeneratedTimeTable", timetable);

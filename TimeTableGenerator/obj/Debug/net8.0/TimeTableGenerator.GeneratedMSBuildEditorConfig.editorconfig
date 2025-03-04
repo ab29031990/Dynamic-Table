@@ -9,53 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TimeTableGenerator
 build_property.RootNamespace = TimeTableGenerator
-build_property.ProjectDir = D:\Abhishek\Projects\Demo\TimeTableGenerator\TimeTableGenerator\
+build_property.ProjectDir = D:\Abhishek\Projects\Demo\Dynamic-Table\TimeTableGenerator\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Abhishek\Projects\Demo\TimeTableGenerator\TimeTableGenerator
+build_property.MSBuildProjectDirectory = D:\Abhishek\Projects\Demo\Dynamic-Table\TimeTableGenerator
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Abhishek/Projects/Demo/TimeTableGenerator/TimeTableGenerator/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Abhishek/Projects/Demo/TimeTableGenerator/TimeTableGenerator/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Abhishek/Projects/Demo/TimeTableGenerator/TimeTableGenerator/Views/Shared/Error.cshtml]
+[D:/Abhishek/Projects/Demo/Dynamic-Table/TimeTableGenerator/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Abhishek/Projects/Demo/TimeTableGenerator/TimeTableGenerator/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Abhishek/Projects/Demo/Dynamic-Table/TimeTableGenerator/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Abhishek/Projects/Demo/TimeTableGenerator/TimeTableGenerator/Views/TimeTable/EnterSubjects.cshtml]
+[D:/Abhishek/Projects/Demo/Dynamic-Table/TimeTableGenerator/Views/TimeTable/EnterSubjects.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlXEVudGVyU3ViamVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Abhishek/Projects/Demo/TimeTableGenerator/TimeTableGenerator/Views/TimeTable/GeneratedTimeTable.cshtml]
+[D:/Abhishek/Projects/Demo/Dynamic-Table/TimeTableGenerator/Views/TimeTable/GeneratedTimeTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlXEdlbmVyYXRlZFRpbWVUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Abhishek/Projects/Demo/TimeTableGenerator/TimeTableGenerator/Views/TimeTable/Index.cshtml]
+[D:/Abhishek/Projects/Demo/Dynamic-Table/TimeTableGenerator/Views/TimeTable/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVRhYmxlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Abhishek/Projects/Demo/TimeTableGenerator/TimeTableGenerator/Views/_ViewImports.cshtml]
+[D:/Abhishek/Projects/Demo/Dynamic-Table/TimeTableGenerator/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Abhishek/Projects/Demo/TimeTableGenerator/TimeTableGenerator/Views/_ViewStart.cshtml]
+[D:/Abhishek/Projects/Demo/Dynamic-Table/TimeTableGenerator/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Abhishek/Projects/Demo/TimeTableGenerator/TimeTableGenerator/Views/Shared/_Layout.cshtml]
+[D:/Abhishek/Projects/Demo/Dynamic-Table/TimeTableGenerator/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8lfu5fayfz
