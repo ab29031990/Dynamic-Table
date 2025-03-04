@@ -1,0 +1,17 @@
+﻿<link rel="stylesheet" href="~/css/style.css" />
+
+@model List<List<string>>
+<div class="container">
+   <table border="1">
+		@foreach (var row in Model)
+		{
+			<tr>
+				@foreach (var subject in row)
+				{
+					<td>@subject</td>
+				}
+			</tr>
+		}
+	</table>
+</div>
+

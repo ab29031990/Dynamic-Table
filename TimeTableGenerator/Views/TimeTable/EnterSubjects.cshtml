@@ -1,0 +1,27 @@
+﻿<link rel="stylesheet" href="~/css/style.css" />
+
+@{
+	int totalHours = ViewBag.TotalHours;
+	int subjectsCount = ViewBag.SubjectsCount;
+}
+
+<div class="container">
+	@if (!string.IsNullOrEmpty(ViewBag.Error))
+	{
+		<div class="error-message">@ViewBag.Error</div>
+	}
+	<form asp-action="GenerateTimeTable" method="post">
+		<input type="hidden" name="TotalHours" value="@totalHours" />
+
+		@for (int i = 0; i < subjectsCount; i++)
+		{
+			<label>Subject Name:</label>
+			<input type="text" name="subjects[@i].SubjectName" required />
+
+			<label>Hours:</label>
+			<input type="number" name="subjects[@i].Hours" required />
+		}
+
+		<button type="submit">Generate</button>
+	</form>
+</div>

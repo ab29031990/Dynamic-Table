@@ -1,0 +1,20 @@
+﻿<link rel="stylesheet" href="~/css/style.css" />
+
+@model TimeTableInputModel
+
+<div class="container">
+	<form asp-action="SetSubjects" method="post">
+		<label>Working Days (1-7)</label>
+		<input asp-for="NoOfWorkingDays" required />
+		<span class="error-message" asp-validation-for="NoOfWorkingDays"></span>
+
+		<label>Subjects per Day (1-8)</label>
+		<input asp-for="NoOfSubjectsPerDay" required />
+		<span class="error-message" asp-validation-for="NoOfSubjectsPerDay"></span>
+
+		<label>Total Subjects</label>
+		<input asp-for="TotalSubjects" required />
+		<span class="error-message" asp-validation-for="TotalSubjects"></span>
+		<button type="submit">Next</button>
+	</form>
+</div>
